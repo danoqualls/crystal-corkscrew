@@ -115,6 +115,10 @@ a {
   width: 12.5%;
 }
 
+.col-7-8 {
+  width: 87.5%;
+}
+
 .grid-module {
   background: #eee;
   padding: 20px;
@@ -147,6 +151,16 @@ a {
 .d-inline-block {
   display: inline-block;
 }
+
+.highlight-txt {
+  color: #278496; 
+}
+
+.txt-block {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #278496;
+}
+
 
 /*-----------------*/
 
@@ -183,7 +197,7 @@ a {
 }
 
 .icon {
-  max-width: 40px;
+  max-width: 50px;
   height: auto;
 }
 
