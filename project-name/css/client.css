@@ -247,21 +247,20 @@ input[type="radio"]:invalid + label span {
 input[type="radio"]:disabled + label span {
     background:url('../images/crystal-sprite.png') no-repeat -289px -383px;
 }
-.select-style {
+select {
     border: 1px solid #278496;
     width: 288px;
+    height: 45px;
     border-radius: 2px;
     overflow: hidden;
-    font-family: "Lato":;
-}
-
-.select-style select {
-    padding: 5px 8px;
-    width: 130%;
-    border: none;
-    box-shadow: none;
-    background: blue;
     font-family: "Lato";
+    font-size: 1em;
+    background: transparent;
+    color: #3a3a3a;
+}
+option {
+  font-family: "Lato";
+  text-transform: uppercase;
 }
 
 /* ----------------- */
