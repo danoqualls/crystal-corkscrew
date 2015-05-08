@@ -68,6 +68,11 @@ ol {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+  color: #278496;
+  font-weight: 300;
+}
 /*-----------------*/
 
 
@@ -110,9 +115,13 @@ ol {
   width: 12.5%;
 }
 
-.module {
-  padding: 20px;
+.grid-module {
   background: #eee;
+  padding: 20px;
+}
+
+.module {
+  background: #FFF;
 }
 
 /* Opt-in outside padding */
@@ -123,45 +132,47 @@ ol {
   padding-right: 20px;
 }
 
-
-/*.row {
-  margin: 0 -10px;
-  overflow: hidden;
+.txt-align-center {
+  text-align: center;
 }
 
-.row + .row {
-  margin-top: 20px;
+.txt-align-right {
+  text-align: right; 
 }
 
-.col {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  padding: 10px;
-  min-height: 100px;
-  background: #ddd;
-  border: 1px solid #fff;
+.txt-align-left {
+  text-align: left; 
 }
 
-.lg-100 { width: 100%; }
-.lg-80  { width: 80%; }
-.lg-33  { width: 66.666666%; }
-.lg-60  { width: 60%; }
-.lg-50  { width: 50%; }
-.lg-40  { width: 40%; }
-.lg-33  { width: 33.333333%; }
-.lg-25  { width: 25%; }
-.lg-20  { width: 20%; }
-
-@media screen and ( max-width: 700px ) {
-  
-  .sm-100 { width: 100%; }
-  .sm-66 { width: 66.666666%; }
-  .sm-50 { width: 50%; }
-  .sm-33 { width: 33.333333%; }
-  
+.d-inline-block {
+  display: inline-block;
 }
-*/
+
+/*-----------------*/
+
+.avatar-block {
+  background: #BAC5C6;
+  height: 250px;
+  border-bottom: 5px solid #278496;
+  margin-bottom: 30px; 
+}
+
+.user-info {}
+.user__name {
+  margin-bottom: 30px; 
+  color: #278496  ;
+}
+
+.user__about {
+  margin-bottom: 50px; 
+}
+
+.user__link {
+  padding: 10px 0px;
+  border-top: 1px solid #278496;
+  border-bottom: 1px solid #278496;
+}
+
 /*-----------------*/
 .icon-item {
   display: inline-block;
