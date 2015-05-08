@@ -23,7 +23,7 @@
   
   <div class="form-group">
     <label for="f10">Select menu</label>
-    <select>
+    <select class="select-style">
       <option disabled selected>Select an option</option>
       <option>Option 1</option>
       <option>Option 2</option>
@@ -32,6 +32,19 @@
     </select>
   </div>
   
+<label>
+    IMDB Top Movies:
+    <span class="custom-dropdown custom-dropdown--white">
+        <select class="custom-dropdown__select custom-dropdown__select--white">
+            <option>The Shawshank Redemption</option>
+            <option>The Godfather</option>
+            <option>Pulp Fiction</option>
+            <option>The Good, the Bad and the Ugly</option>
+            <option>12 Angry Men</option>
+        </select>
+    </span>
+</label>
+
   <div class="form-group checkbox-group">
     <fieldset>
       <legend>Checkbox group with fieldset &amp; legend</legend>
@@ -68,13 +81,13 @@
     <label for="f11">Select Menu</label>
     <input list="dlist-options" id="f11" />
 
-    <select id="select-options">
+    <datalist id="dlist-options">
       <option value="option 1">
       <option value="option 2">
       <option value="option 3">
       <option value="option 4">
       <option value="option 5">
-    </select>
+    </datalist>
   </div>
   
 </form>
