@@ -1,6 +1,18 @@
 /* page banner */
 .cs-banner {
-  
+	background: #414141;
+}
+
+.cs-fts-nav a {
+	color: white;
+}
+
+.cs-fts-nav a:hover { 
+	color: #F3F3F1;
+}
+
+.cs-fts-nav li.is-active a {
+	color: #FD716B;
 }
 
 /* page footer */

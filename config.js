@@ -1,9 +1,9 @@
 // Corkscrew configuration
 var Corkscrew = {
-  name : "Style Guide &middot; Fresh Tilled Soil",
-  logo: "project-name/images/logo.jpg",
+  name : "Style Guide &middot; Crystal",
+  logo: "project-name/images/logo.png",
   partials : "project-name/partials/",
-  repo: "https://github.com/freshtilledsoil/corkscrew",
+  repo: "https://github.com/danoqualls/crystal-corkscrew",
   css: ["project-name/css/client.css"],
   js: ["project-name/js/client.js"],
   htmlViewer: true,
@@ -16,7 +16,7 @@ var Corkscrew = {
   templates : [
     {
       name: "Homepage",
-      location: "http://freshtilledsoil.com/"
+      location: "https://www.crystalknows.com/"
     },
     {
       name: "General content - post",
