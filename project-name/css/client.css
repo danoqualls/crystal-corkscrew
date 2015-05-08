@@ -284,5 +284,4 @@ input[type="radio"]:disabled + label span {
 }
 option {
   font-family: "Lato";
-  text-transform: uppercase;
 }
