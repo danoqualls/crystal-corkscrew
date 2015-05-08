@@ -1,3 +1,17 @@
+.icon-item {
+  display: inline-block;
+  height: auto;
+  text-align: center; 
+  width: 100px;
+}
+
+.icon {
+  max-width: 40px;
+  height: auto;
+}
+
+
+
 table {
   border-collapse: collapse;
 }
@@ -56,17 +70,22 @@ input[type="checkbox"] {
   border: 1px solid #fff;
 }
 
-.lg-5 { width: 100%; }
-.lg-4 { width: 80%; }
-.lg-3 { width: 60%; }
-.lg-2 { width: 40%; }
-.lg-1 { width: 20%; }
+.lg-100 { width: 100%; }
+.lg-80  { width: 80%; }
+.lg-33  { width: 66.666666%; }
+.lg-60  { width: 60%; }
+.lg-50  { width: 50%; }
+.lg-40  { width: 40%; }
+.lg-33  { width: 33.333333%; }
+.lg-25  { width: 25%; }
+.lg-20  { width: 20%; }
 
 @media screen and ( max-width: 700px ) {
   
-  .sm-3 { width: 100%; }
-  .sm-2 { width: 66.666666%; }
-  .sm-1 { width: 33.333333%; }
+  .sm-100 { width: 100%; }
+  .sm-66 { width: 66.666666%; }
+  .sm-50 { width: 50%; }
+  .sm-33 { width: 33.333333%; }
   
 }
 
@@ -247,6 +266,7 @@ input[type="radio"]:invalid + label span {
 input[type="radio"]:disabled + label span {
     background:url('../images/crystal-sprite.png') no-repeat -289px -383px;
 }
+
 select {
     border: 1px solid #278496;
     width: 288px;
@@ -351,3 +371,5 @@ option {
         .custom-dropdown--small .custom-dropdown__select { padding-right: .5em }
     }
 }
+=======
+>>>>>>> 22340f53a824179dbd9c58038772f94e4566b624
