@@ -1,0 +1,255 @@
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+legend {
+  
+}
+
+fieldset {
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.checkbox-group label,
+.radio-group label {
+  display: inline-block;
+}
+
+.btn,
+button,
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.row {
+  margin: 0 -10px;
+  overflow: hidden;
+}
+
+.row + .row {
+  margin-top: 20px;
+}
+
+.col {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+  min-height: 100px;
+  background: #ddd;
+  border: 1px solid #fff;
+}
+
+.lg-5 { width: 100%; }
+.lg-4 { width: 80%; }
+.lg-3 { width: 60%; }
+.lg-2 { width: 40%; }
+.lg-1 { width: 20%; }
+
+@media screen and ( max-width: 700px ) {
+  
+  .sm-3 { width: 100%; }
+  .sm-2 { width: 66.666666%; }
+  .sm-1 { width: 33.333333%; }
+  
+}
+
+/*-----------------*/
+* {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.625em; /* 42 px / 16 px = 2.625em */
+  font-weight: 700;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.25em; /* 36 px / 16 px = 2.25em */
+  font-weight: 700;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.75em; /* 28 px / 16 px = 1.75em */
+  font-weight: 700;
+}
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25em; /* 20 px / 16 px = 1.25em */
+  font-weight: 400;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1em; /* 16 px / 16 px = 1em */
+  font-weight: 400;
+}
+h6 {
+  font-family: "Lato", sans-serif;
+  font-size: 1em; /* 16 px / 16 px = 1em */
+  font-weight: 300;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.125em; /* 18 px / 16 px = 1.125em */
+  font-weight: 300;
+}
+.dark-link {
+  color: #b9fefe;
+}
+.light-link {
+  color: #4bb0ce;
+}
+ul {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+ol {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.text-field-label {
+
+}
+.text-field-input {
+
+}
+input[type=text] {
+  border: 1px solid #278496;
+  border-radius: 2;
+  padding-left: 5px;
+  font-style: italic;
+  -webkit-appearance: none;
+}
+textarea {
+  border: 1px solid #278496;
+  border-radius: 2;
+  -webkit-box-shadow: inset -0.5px 0.5px 1px 1px rgba(230,230,230,1);
+  -counter-resetmoz-box-shadow: inset -0.5px 0.5px 1px 1px rgba(230,230,230,1);
+  box-shadow: inset -0.5px 0.5px 1px 1px rgba(230,230,230,1);
+}
+.btn {
+  border: 1px solid #fd716b;
+  border-radius: 2;
+  background-color: white;
+  color: #fd716b;
+  text-transform: uppercase;
+  padding: 20px 95px 20px 95px;
+}
+.content-btn {
+  border: 1px solid #fd716b;
+  border-radius: 2;
+  background-color: white;
+  color: #fd716b;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 20px;
+}
+.btn:hover {
+  border: 1px solid #fe9590;
+  border-radius: 2;
+  background-color: #fe9590;
+  color: white;
+}
+.btn:active {
+  border: 1px solid #fd716b;
+  border-radius: 2;
+  background-color: #fd716b;
+  color: white;
+}
+.btn:disabled {
+  border: 1px solid #fd716b;
+  border-radius: 2;
+  background-color: white;
+  color: #fd716b;
+}
+.btn:focus {
+  outline: thin dotted;
+}
+.btn-hover {
+  border: 1px solid #fe9590;
+  border-radius: 2;
+  background-color: #fe9590;
+  color: white;
+}
+.btn-active {
+  border: 1px solid #fd716b;
+  border-radius: 2;
+  background-color: #fd716b;
+  color: white;
+}
+.btn-disabled {
+  border: 1px solid #bac5c6;
+  border-radius: 2;
+  background-color: #eceeee;
+  color: #bac5c6;
+}
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url('../images/crystal-sprite.png') no-repeat -19px -208px;
+    width: 20px;
+    height: 20px;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -19px -341px;
+}
+input[type="checkbox"]:focus + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -13px -297px;
+}
+input[type="checkbox"]:invalid + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -19px -246px;
+}
+input[type="checkbox"]:disabled + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -19px -381px;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url('../images/crystal-sprite.png') no-repeat -289px -206px;
+    width: 20px;
+    height: 20px;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -289px -341px;
+}
+input[type="radio"]:focus + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -283px -295px;
+}
+input[type="radio"]:invalid + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -289px -237px;
+}
+input[type="radio"]:disabled + label span {
+    background:url('../images/crystal-sprite.png') no-repeat -289px -383px;
+}
+select {
+  font-family: "Comic-Sans";
+}
+option {
+  font-family: "Comic-Sans";
+}
