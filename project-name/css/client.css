@@ -1,3 +1,17 @@
+.icon-item {
+  display: inline-block;
+  height: auto;
+  text-align: center; 
+  width: 100px;
+}
+
+.icon {
+  max-width: 40px;
+  height: auto;
+}
+
+
+
 table {
   border-collapse: collapse;
 }
@@ -246,10 +260,4 @@ input[type="radio"]:invalid + label span {
 }
 input[type="radio"]:disabled + label span {
     background:url('../images/crystal-sprite.png') no-repeat -289px -383px;
-}
-select {
-  font-family: "Comic-Sans";
-}
-option {
-  font-family: "Comic-Sans";
 }
