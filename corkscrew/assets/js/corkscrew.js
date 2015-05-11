@@ -155,7 +155,7 @@ var Pinot = {
 
           }); // Pinot.activateContent()
           
-          Pinot.addTemplatesDropdown();
+          // Pinot.addTemplatesDropdown();
           Pinot.addRepoLink(Corkscrew.repo);
 
           window.setTimeout(function() {

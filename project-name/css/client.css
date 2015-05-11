@@ -173,6 +173,11 @@ span {
   text-transform: uppercase;
 }
 
+.dark-link {
+  background-color: #0D346B; 
+  padding: 10px 20px;
+}
+
 /*-----------------*/
 
 .avatar-block {
@@ -182,7 +187,9 @@ span {
   margin-bottom: 30px; 
 }
 
-.user-info {}
+.user-info {
+  border-bottom: 5px solid #278496;
+}
 .user__name {
   margin-bottom: 30px; 
   color: #278496  ;
@@ -196,6 +203,7 @@ span {
   padding: 10px 0px;
   border-top: 1px solid #278496;
   border-bottom: 1px solid #278496;
+  margin-bottom: 20px;
 }
 
 /*-----------------*/
@@ -257,6 +265,7 @@ input[type="checkbox"] {
   text-transform: uppercase;
   padding: 20px 95px 20px 95px;
 }
+
 .content-btn {
   border: 1px solid #fd716b;
   border-radius: 2px;
@@ -265,11 +274,13 @@ input[type="checkbox"] {
   text-transform: uppercase;
   padding: 20px 20px 20px 20px;
 }
+
 .btn:hover {
   border: 1px solid #fe9590;
   background-color: #fe9590;
   color: white;
 }
+
 .btn:active {
   border: 1px solid #fd716b;
   background-color: #fd716b;
@@ -296,11 +307,12 @@ input[type="checkbox"] {
   background-color: #fd716b;
   color: white;
 }
-.btn-disabled {
+.btn[disabled] {
   border: 1px solid #bac5c6;
   border-radius: 2px;
   background-color: #eceeee;
   color: #bac5c6;
+  cursor: default;
 }
 
 /*-----------------*/
@@ -314,7 +326,7 @@ legend {
 }
 
 fieldset {
-  
+  border: none; 
 }
 
 .form-group {
