@@ -156,6 +156,9 @@ a {
   color: #278496; 
 }
 
+.highlight-txt span {
+  font-weight: bold;
+}
 .txt-block {
   margin-bottom: 20px;
   border-bottom: 1px solid #278496;
