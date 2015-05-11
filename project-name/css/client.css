@@ -156,14 +156,22 @@ a {
   color: #278496; 
 }
 
-.highlight-txt span {
+.highlight-txt-dark {
+  color: #0D346B; 
+}
+
+span {
   font-weight: bold;
 }
+
 .txt-block {
   margin-bottom: 20px;
   border-bottom: 1px solid #278496;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
 
 /*-----------------*/
 
@@ -188,6 +196,24 @@ a {
   padding: 10px 0px;
   border-top: 1px solid #278496;
   border-bottom: 1px solid #278496;
+}
+
+/*-----------------*/
+
+.price-block {
+  background-color: #E4F8F8;
+  border-top: 2px solid #278496;
+  height: auto;
+  min-height: 450px;
+}
+
+.price-block button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.price-block p {
+  padding: 0px 10px;
 }
 
 /*-----------------*/
@@ -225,7 +251,7 @@ input[type="checkbox"] {
 
 .btn {
   border: 1px solid #fd716b;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: white;
   color: #fd716b;
   text-transform: uppercase;
@@ -233,7 +259,7 @@ input[type="checkbox"] {
 }
 .content-btn {
   border: 1px solid #fd716b;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: white;
   color: #fd716b;
   text-transform: uppercase;
@@ -241,19 +267,17 @@ input[type="checkbox"] {
 }
 .btn:hover {
   border: 1px solid #fe9590;
-  border-radius: 2;
   background-color: #fe9590;
   color: white;
 }
 .btn:active {
   border: 1px solid #fd716b;
-  border-radius: 2;
   background-color: #fd716b;
   color: white;
 }
 .btn:disabled {
   border: 1px solid #fd716b;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: white;
   color: #fd716b;
 }
@@ -262,19 +286,19 @@ input[type="checkbox"] {
 }
 .btn-hover {
   border: 1px solid #fe9590;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: #fe9590;
   color: white;
 }
 .btn-active {
   border: 1px solid #fd716b;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: #fd716b;
   color: white;
 }
 .btn-disabled {
   border: 1px solid #bac5c6;
-  border-radius: 2;
+  border-radius: 2px;
   background-color: #eceeee;
   color: #bac5c6;
 }
