@@ -333,22 +333,22 @@ input[type="checkbox"] {
 
 
 .dark-bg .btn {
-  border: 1px solid #99ffff;
+  border: 1px solid rgb(146,226,230);
   border-radius: 2px;
   background-color: transparent;
-  color: #99ffff;
+  color: rgb(146,226,230);
   text-transform: uppercase;
   padding: 20px 95px 20px 95px;
 }
 
 
 .dark-bg .btn:hover {
-  background-color: #99ffff;
+  background-color: rgb(146,226,230);
   color: white;
 }
 
 .dark-bg .btn:active {
-  border: 1px solid #99ffff;
+  border: 1px solid #66cccc;
   background-color: #66cccc;
   color: white;
 }
