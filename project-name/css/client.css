@@ -77,7 +77,6 @@ a {
 
 
 .grid {
-  background: white;
   margin: 0 0 20px 0;
 }
 .grid:after {
@@ -185,6 +184,12 @@ span {
   padding: 30px;
   margin-top: 20px;
 }
+
+.light-bg {
+  background: #4BB0CE;
+  padding-top: 20px;
+}
+
 /*-----------------*/
 
 .avatar-block {
