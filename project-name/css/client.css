@@ -118,6 +118,14 @@ a {
   width: 87.5%;
 }
 
+@media screen and (max-width: 700px) { 
+  .grid > [class^="col-"] {
+    width: 100%;
+    padding-right: 0;
+  }
+
+}
+
 .grid-module {
   background: #eee;
   padding: 20px;
@@ -270,6 +278,7 @@ input[type="checkbox"] {
   background-color: white;
   color: #fd716b;
   text-transform: uppercase;
+  font-weight: bold;
   padding: 20px 95px 20px 95px;
 }
 
@@ -494,7 +503,6 @@ input {
 }
 
 .main {
-  background: #4BB0CE;
   padding-top: 20px;
   border-bottom: 10px solid #278496;
   margin-bottom: 100px;
@@ -510,6 +518,11 @@ input {
 .richard-img {
   width: 110%;
   height: auto;
+}
+
+.browserBar-img {
+  width: 105%;
+  margin-left: -2.5%;
 }
 
 .gif-img {
@@ -531,8 +544,13 @@ input {
 .testimonial .grid {
   margin-bottom: -6px;
 }
+
 .quote {
   padding-top: 100px;
+}
+
+.communicate {
+  margin-bottom: 100px;
 }
 
 .footer {
