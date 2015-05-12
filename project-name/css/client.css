@@ -185,11 +185,6 @@ span {
   margin-top: 20px;
 }
 
-.light-bg {
-  background: #4BB0CE;
-  padding-top: 20px;
-}
-
 /*-----------------*/
 
 .avatar-block {
@@ -493,14 +488,59 @@ input {
   display: inline-block;
 }
 
-.inline-block {
-  display: inline-block;
+.header {
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
-.sign-in a {
-  
+.main {
+  background: #4BB0CE;
+  padding-top: 20px;
+  border-bottom: 10px solid #278496;
+  margin-bottom: 100px;
 }
+
 
 .logo-icon {
+  width: 50%;
+  height: auto;
+}
 
+.computer-img,
+.richard-img {
+  width: 110%;
+  height: auto;
+}
+
+.gif-img {
+  width: 100%;
+  height: auto; 
+}
+
+.sign-in {
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.testimonial,
+.visual {
+  border-bottom: 10px solid #278496;
+  margin-bottom: 100px;
+}
+
+.testimonial .grid {
+  margin-bottom: -6px;
+}
+.quote {
+  padding-top: 100px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #278496; 
+}
+
+.footer p {
+  padding-top: 40px;
 }
