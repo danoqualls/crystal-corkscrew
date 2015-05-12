@@ -186,7 +186,7 @@ span {
 }
 
 .dark-bg {
-  background-color: #0D346B; 
+  background-color: #339999; 
   width: 40%;
   color: white;
   padding: 30px;
@@ -343,12 +343,12 @@ input[type="checkbox"] {
 
 
 .dark-bg .btn:hover {
-  background-color: #99ccff;
+  background-color: #99ffff;
   color: white;
 }
 
 .dark-bg .btn:active {
-  border: 1px solid #99ccff;
+  border: 1px solid #99ffff;
   background-color: #66cccc;
   color: white;
 }
