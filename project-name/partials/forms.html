@@ -13,7 +13,17 @@
 <form>
   <div class="form-group">
     <label for="f1">Text field</label>
-    <input type="text" id="f1" name="f1" placeholder="a text field">
+    <input type="text" id="f1" name="f1" placeholder="Placeholder">
+  </div>
+
+  <div class="form-group">
+    <label for="disabled-input">Disabled Text field</label>
+    <input type="text" id="disabled-input" name="disabled-input" placeholder="Placeholder" disabled>
+  </div>
+
+  <div class="form-group">
+    <label for="invalid-input">Invalid Text field</label>
+    <input type="text" id="invalid-input" name="invalid-input" placeholder="Missing Input" required>
   </div>
   
   <div class="form-group">
@@ -22,9 +32,20 @@
   </div>
   
   <div class="form-group select-style">
-    <label for="f10">Select menu</label>
-    <select>
+    <label for="select-menu">Select menu</label>
+    <select id="select-menu">
       <option disabled selected>Select an option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+      <option>Option 4</option>
+    </select>
+  </div>
+
+  <div class="form-group select-style">
+    <label for="disabled-select">Select menu</label>
+    <select id="disabled-select" disabled>
+      <option disabled selected>Disabled</option>
       <option>Option 1</option>
       <option>Option 2</option>
       <option>Option 3</option>
@@ -63,19 +84,8 @@
       
     </fieldset>
   </div>
-  
-  <div class="form-group">
-    <label for="f11">Select Menu</label>
-    <input list="dlist-options" id="f11" />
 
-    <datalist id="dlist-options">
-      <option value="option 1">
-      <option value="option 2">
-      <option value="option 3">
-      <option value="option 4">
-      <option value="option 5">
-    </datalist>
-  </div>
+  
   
 </form>
     
@@ -94,14 +104,21 @@
   
   <div class="cs-content">
 
-<h6>Default full-width button</h6>    
-<button type="button" class="btn">Submit</button>
-<h6>Focused/hover full-width button</h6>
-<button type="button" class="btn btn-hover">Submit</button>
-<h6>Active full-width button</h6>
-<button type="button" class="btn btn-active">Submit</button>
-<h6>Disabled full-width button</h6>
-<button type="button" class="btn" disabled>Submit</button>
+  <h6>Default full-width button</h6>    
+  <button type="button" class="btn">Submit</button>
+  <h6>Active full-width button</h6>
+  <button type="button" class="btn btn-active">Submit</button>
+  <h6>Disabled full-width button</h6>
+  <button type="button" class="btn" disabled>Submit</button>
+
+  <div class="dark-bg">
+    <h6>Default full-width button</h6>    
+    <button type="button" class="btn">Submit</button>
+    <h6>Active full-width button</h6>
+    <button type="button" class="btn btn-active">Submit</button>
+    <h6>Disabled full-width button</h6>
+    <button type="button" class="btn" disabled>Submit</button>
+  </div>
 
 <h6>Default content-width button</h6>    
 <button type="button" class="btn content-btn">Submit</button>
