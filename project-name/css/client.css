@@ -196,7 +196,7 @@ span {
 /*-----------------*/
 
 .avatar-block {
-  background: #BAC5C6;
+  background: #EEEEEE;
   height: 250px;
   border-bottom: 5px solid #278496;
   margin-bottom: 30px; 
@@ -288,7 +288,7 @@ input[type="checkbox"] {
   background-color: white;
   color: #fd716b;
   text-transform: uppercase;
-  padding: 20px 20px 20px 20px;
+  padding: 15px;
 }
 
 .btn:hover {
@@ -372,7 +372,7 @@ legend {
 }
 
 fieldset {
-  border: none; 
+  border-color: #278496;
 }
 
 .form-group {
@@ -580,7 +580,6 @@ input {
 }
 
 .dashboard legend {
-  margin-left: 136px;
   color: #FD716B;
 }
 
@@ -596,7 +595,7 @@ input {
 }
 
 #dashboard-search {
-  width: 70%;
+  width: 150%;
 }
 
 .search-icon {
