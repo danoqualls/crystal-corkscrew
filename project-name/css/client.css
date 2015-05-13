@@ -466,9 +466,6 @@ input[type="radio"]:disabled + label span {
   -moz-appearance: none; /* Removes Default Firefox style*/
 }
 
-
-
-
 input[type=text] {
   border: 1px solid #278496;
   width: 288px;
@@ -506,7 +503,6 @@ input {
   border-bottom: 10px solid #278496;
   margin-bottom: 100px;
 }
-
 
 .logo-icon {
   width: 50%;
@@ -562,8 +558,6 @@ input {
   padding-top: 40px;
 }
 
-
-
 .dashboard li {
   padding-right: 10px;
   color: #0D346B; 
@@ -571,11 +565,30 @@ input {
   text-decoration: none;
 }
 
+.dashboard fieldset {
+  margin-top: 20px;
+}
+
 .dashboard legend {
+  margin-left: 136px;
   color: #FD716B;
 }
 
+ .indie-label {
+  padding-right: 18px;
+  margin-bottom: 5px;
+}
+
 .is-hidden {
-  text-indent: -9999px;
+  position: absolute;
+  left: -9999px;
   visibility: hidden;
+}
+
+#dashboard-search {
+  width: 70%;
+}
+
+.search-icon {
+  vertical-align: middle;
 }
