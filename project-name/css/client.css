@@ -396,6 +396,15 @@ input[type=text] {
   -webkit-appearance: none;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0px 0px 8px #278496;
+  outline-style: none;
+}
+
+
+
 textarea {
   border: 1px solid #278496;
   border-radius: 2px;
@@ -482,6 +491,7 @@ input[disabled] {
 
 input:invalid {
   border: 1px solid #FD716B;
+  box-shadow: 0px 0px 8px #FD716B;
 }
 
 select[disabled] {
