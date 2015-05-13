@@ -1,7 +1,7 @@
 // Corkscrew configuration
 var Corkscrew = {
   name : "Style Guide &middot; Crystal",
-  logo: "project-name/images/logo.png",
+  logo: "project-name/images/logo-dark.png",
   partials : "project-name/partials/",
   repo: "https://github.com/danoqualls/crystal-corkscrew",
   css: ["project-name/css/client.css"],

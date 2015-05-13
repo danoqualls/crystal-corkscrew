@@ -1,20 +1,26 @@
 /* page banner */
 .cs-banner {
-	background: #414141;
+	background: transparent;
 }
 
 .cs-fts-nav a {
-	color: white;
+	color: #0D346B;
+	font-weight: bold;
 }
 
 .cs-fts-nav a:hover { 
-	color: #F3F3F1;
+	color: #278496;
 }
 
 .cs-fts-nav li.is-active a {
 	color: #FD716B;
 }
 
+.cs-fts-nav.is-open {
+	background: #F3F3F1;
+	border-right: 1px solid #293352;
+	border-bottom: 1px solid #293352;
+}
 /* page footer */
 .cs-footer {
   
