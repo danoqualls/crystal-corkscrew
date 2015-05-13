@@ -562,3 +562,21 @@ input {
 .footer p {
   padding-top: 40px;
 }
+
+
+
+.dashboard li {
+  padding-right: 10px;
+  color: #0D346B; 
+  display: inline-block;
+  text-decoration: none;
+}
+
+.dashboard legend {
+  color: #FD716B;
+}
+
+.is-hidden {
+  text-indent: -9999px;
+  visibility: hidden;
+}
